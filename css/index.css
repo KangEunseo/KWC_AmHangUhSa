@@ -1,7 +1,7 @@
 body{
   font-family: "Dosis",sans-serif;
   text-align: center;
-  background: url(../image/bg.png) no-repeat;
+  background: url(../image/bg.png) no-repeat center fixed;
   background-size: cover;
 }
 
