@@ -3,6 +3,7 @@ html{
   text-align: center;
   background: url(../image/bg.png) no-repeat center fixed;
   background-size: cover;
+  height: 100%;
 }
 
 #menu {
