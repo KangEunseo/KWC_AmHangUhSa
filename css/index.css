@@ -1,9 +1,18 @@
 html{
   font-family: "Dosis",sans-serif;
   text-align: center;
-  background: url(../image/bg.png) no-repeat center fixed;
-  background-size: cover;
-  min-height: 100%;
+  background: url(../image/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select:none;
 }
 
 #menu {
@@ -26,10 +35,19 @@ html{
   top: 50%;
   margin: -80px 0 0 -80px;
   border-radius: 50%;
-  background: url(../image/char1_face.jpg);
-  background-size: 100%;
   overflow: hidden;
   text-decoration: none;
+}
+
+.char{
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -80px 0 0 -80px;
+  border-radius: 50%;
 }
 
 .item{
@@ -57,7 +75,7 @@ html{
   background: rgb(170, 227, 255);
   margin: -60px 0 0 -60px;
   border-radius: 50%;
-  transition: 550ms;
+  transition: 300ms;
   z-index: -2;
 }
 
