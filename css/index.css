@@ -1,4 +1,4 @@
-body{
+html{
   font-family: "Dosis",sans-serif;
   text-align: center;
   background: url(../image/bg.png) no-repeat center fixed;
@@ -61,7 +61,7 @@ body{
 }
 
 .menu-item:hover{
-  opacity: 0.6;
+  background: rgb(60, 190, 255);
 }
 
 .menu-item a {
